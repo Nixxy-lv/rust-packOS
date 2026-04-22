@@ -1,4 +1,5 @@
 <h1 align="center">PackOS in Rust</h1>
+<img width="1510" height="1802" alt="1000161712" src="https://github.com/user-attachments/assets/ad92f281-e620-47e0-a59e-cb4f0be3137c" />
 <p align="center">Package based "OS" by me remade in Rust</h2>
 
 <p align="center">
