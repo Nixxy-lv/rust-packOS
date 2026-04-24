@@ -2,5 +2,13 @@
 name = "rustpackOS"
 version = "0.1.0"
 edition = "2024"
+default-run = "rustpackOS"
+
+[[bin]]
+name = "tui"
+path = "src/pk.rs"
 
 [dependencies]
+ratatui = { version="0.29.0", widgets="all-widgets" }
+crossterm = "0.28"
+color-eyre = "0.6.3"

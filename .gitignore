@@ -1,2 +1,5 @@
 # Rust compiled code
 /target
+# tar.gz files
+packOS-linux.tar.gz.sha256
+packOS-linux.tar.gz
