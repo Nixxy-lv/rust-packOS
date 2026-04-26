@@ -27,7 +27,7 @@
 
 <h2 align="center">What is in the install?</h2>
 <p align="center">`install/` contains the shell script required to use the program (example: python to run some python helper scripts)</p>
-> [NOTE]
+>[NOTE]
 > I might make the program auto run `install/` in the future.
 
 ## What is in the build ##
