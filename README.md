@@ -1,6 +1,9 @@
-[![WARNING]]
->i don't have testers and don't know for sure if this works for other people, if you have problems after an update check the commits and see if there is something you haven't updated.
->also make sure to use the install/ before compilimg etc. as that contains packages used for the making of the ONS (Operative Nano System) ALSO MAKE SURE YOU'RE USING THIS ON TERMUX. I REPEAT THIS IS TERMUX ONLY!
+> [!WARNING]
+> I don't have testers and don't know for sure if this works for other people. If you have problems after an update, check the commits and see if there is something you haven't updated.
+>
+> Also make sure to use the `install/` folder before compiling, as that contains packages used for making the ONS (Operative Nano System).
+>
+> ALSO MAKE SURE YOU'RE USING THIS ON TERMUX. I REPEAT: THIS IS TERMUX ONLY!
 
 <br>
 
