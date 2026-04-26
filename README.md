@@ -25,6 +25,17 @@
 <h2 align="center">What is this Repo?</h2>
 <p align="center">This is a recreation of my mini "OS" from C to Rust <a href="https://github.com/Nixxy-lv/packOS-old">Click to see the C Version</a></p>
 
+<h2 align="center">What is in the install?</h2>
+<p align="center">`install/` contains the shell script required to use the program (example: python to run some python helper scripts)</p>
+> [NOTE]
+> I might make the program auto run `install/` in the future.
+
+## What is in the build ##
+compiled code with Clang tool
+
+## What is in the src ##
+code for the program and also future equivalent to home folder (dorm).
+
 <h2 align="center">Why?</h2>
 <p align="center">This was made to experiment with Rust and optimize the system itself</p>
 
