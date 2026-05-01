@@ -30,7 +30,14 @@ fn get_py() -> (String, String) {
 }
 
 fn kernel_main() {
-    sys("printf '\\033[33m'; figlet PackON Boot; printf '\\033[0m'");
+    print!("\x1b[33m    ██████╗  █████╗  ██████╗██╗  ██╗ ██████╗ ███╗   ██╗
+    ██╔══██╗██╔══██╗██╔════╝██║ ██╔╝██╔═══██╗████╗  ██║
+    ██████╔╝███████║██║     █████╔╝ ██║   ██║██╔██╗ ██║
+    ██╔═══╝ ██╔══██║██║     ██╔═██╗ ██║   ██║██║╚██╗██║
+    ██║     ██║  ██║╚██████╗██║  ██╗╚██████╔╝██║ ╚████║
+    ╚═╝     ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝
+                                                       
+    \x1b[0m");
     println!("");
     sys("python src_python/start.py");
     print!("\nWelcome to PackOS\n\nType 'bot' to boot\n\nPizza&Muncher $ ");
@@ -99,11 +106,11 @@ fn main() {
             } else if input1 == "clear" {
                 sys("clear");
             } else if input1 == "CHNL:" {
-                println!("Start-Release 0.7.2 -Added TUI package installer and upgrader, small fixes");
+                println!("v0.7.2-Beta2 • Fixed authenthication fail not stopping PackON Boot");
             } else if input1 == "SYSTEM:" {
-                println!("Rust PackOS -ver: (NOT FULL) Start-Release 0.7.2");
+                println!("Rust PackOS -ver: (NOT FULL) Start-Release 0.7.2-Beta2");
             } else if input1 == "SHELL:" {
-                println!("PacKSHell-KSH, The Package-based Shell -ver Alpha 0.7.1");
+                println!("PacKSHell-KSH, The Package-based Shell -ver Alpha 0.7.2");
             } else if input1 == "Pult -gt pizza" {
                 println!("Pizza@Ultimate > Yo i want that too.");
             } else if input1 == "TERM:" {
